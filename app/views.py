@@ -113,7 +113,7 @@ def aggregation(request, page=1):
         'msg': msg,
         'order_by': order_by
     }
-    return render(request, 'emissions.html', context)
+    return render(request, 'aggregation.html', context)
 
 
 def insert_update_values(form, post, action, imo):
